@@ -1,0 +1,194 @@
+body{
+    Background: #efefef;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0 auto; /*centers everything on the page */
+    color: #fafafa;
+    width: 960px;
+    overflow-x: hidden;
+    background-image: url("../images/dust_scratches.png")
+    /* background-image: url("../images/stardust.png") */
+}
+#header{
+    display: block;
+    position: relative;
+    clear: both;
+    Background: #fafafa;
+    float: left;
+}
+#content{
+    width: 960px;
+    display:block;
+    position: relative;
+    clear: both;
+}
+.name{
+    background: olivedrab;
+    padding: 5px;
+    width: 315px;   
+    text-align: center; 
+}
+.full-length-bar{
+    margin: 0 -9999rem;
+  /* add back negative margin value */
+    padding: 0rem 9999rem;
+}
+.full-length-footer{
+    margin: 0 -9999rem;
+  /* add back negative margin value */
+    /* padding: 0rem 9999rem; */
+}
+#nav{
+    float: right;
+    color:olivedrab;
+    margin-top: 20px;
+    padding: 0rem 0rem;
+    z-index: 1;
+    position: relative;
+    font-weight: bold;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+li{
+    display:inline-block;
+    padding: 0px .5em
+}
+#section{
+    float: left;
+    width: 620px;    
+    margin:25px 0px 15px 0px;    
+}
+.aboutMe p{
+    line-height: 2;
+}
+.aboutMe img{
+    height:125px;
+    float: left;
+    transform: rotate(90deg);    
+    margin-top: 5px; 
+}
+#connect{
+    float: right;
+    width: 240px;
+    margin:25px 0px 20px 0px;
+}
+#footer{
+    margin-top:30px;
+    display:block;
+    position: relative;
+    clear: both;
+    text-align: center;
+}
+hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    color: #eee;
+}
+#footer .main{
+    font-size: 12px;
+    background-color:olivedrab;
+    padding-top: 50px;
+}
+#footer .thin-green-line{
+    
+    background-color: #fdd46a;
+}
+section div{
+    padding-top: 40px;
+    padding: 15px;    
+    display: block;
+    Background: #fafafa;
+    color:olivedrab;
+    height: auto;
+}
+section h2{
+    color: #fdd46a;
+}
+#connect img{
+    height: 65px;
+    width: 65px;
+}
+textarea{
+    margin: 0px;
+    width: 617px;
+    height: 310px;
+}
+input{
+    height:30px;
+}
+a{text-decoration: none;}
+a:link{ color: olivedrab}
+a:visited { color: olivedrab; }
+a:hover { color: #fdd46a; }
+a:active { color: #c4c2c2; }
+
+.overlay {
+    position: absolute;
+    width: 180px;
+    height: 0px;
+    background-color: #fdd46a;
+    z-index: 2;
+    padding-bottom: 24px;
+    padding-top: 10px;
+}
+ .hangman{
+    bottom: 368px; /*7 from bottom*/
+}
+.rpg{
+    bottom: 368px; /*7 from bottom*/
+} 
+.trivia{
+    bottom: 212px; /*7 from bottom*/
+}
+.rutgers{
+    bottom: 212px; /*7 from bottom*/
+}
+.rock{
+    bottom: 59px; /*7 from bottom*/
+}
+
+table img{
+    height: 118.3px;
+}
+
+@media screen and (max-width: 980px) {
+
+}
+@media screen and (max-width: 768px) {
+    #header{
+        position: static;
+    }
+    #nav{        
+        right: 220px;
+    }
+    #connect{
+        float: none;
+        margin-left: 194px;
+        
+    }
+    #footer{
+        position: static;
+
+    }
+    #section{
+        float: none;
+    }
+    
+}
+@media screen and (max-width: 640px) {  
+    
+    #nav{
+        /* background-color: #fdd46a; */
+        /* position: static; */
+        right: 334px !important;
+    }
+    
+
+}
